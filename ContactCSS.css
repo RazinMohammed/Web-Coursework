@@ -1,0 +1,229 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: floralwhite;
+}
+
+.header {
+    min-height: 10vh;
+    width: 100%;
+    
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+    .header :hover {
+        background-color: peachpuff;
+        transition: 0.5s;
+    }
+
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    nav img {
+        width: 300px;
+    }
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+    .nav-links ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 8px 12px;
+        position: relative;
+    }
+
+        .nav-links ul li a {
+            color: black;
+            font-family: 'Gloock', serif;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+.contactdetailsbox{
+    float:left;
+    width:800px;
+    height:800px;
+    background-color:antiquewhite;
+    margin-right:5%;
+    text-align:center;
+
+}
+
+.messageusbox {
+   
+    float: right;
+    width: 800px;
+    height: 800px;
+    background-color:antiquewhite;
+    text-align:center;
+   
+    
+}
+
+.sectionmargin {
+    margin-left:5%;
+    margin-right:5%;
+    margin-top:5%;
+    display:flex;
+  
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 50%;
+    align-content: start;
+}
+
+
+.textalign{
+    margin-top:24%;
+}
+
+.messageheading{
+    text-align:center;
+    margin-top:20%;
+}
+h20 {
+    font-family: 'Gloock', serif;
+    font-size: xx-large;
+    margin-top:25%;
+}
+
+h14 {
+    font-family: 'Gloock', serif;
+    font-size:xx-large;
+}
+
+h99 {
+    font-family: 'Gloock', serif;
+    font-size: large;
+}
+h98 {
+    font-family: 'Gloock', serif;
+}
+h97 {
+    font-family: 'Gloock', serif;
+
+}
+
+
+.spacing {
+    margin-bottom:5%;
+}
+
+.detailsinputboxes{
+    width:500px;
+    height:50px;
+    margin-bottom:15px;
+    background-color:floralwhite;
+    
+}
+.detailsinputboxes:hover{
+    background-color:whitesmoke;
+    transition:0.5s;
+}
+.inputboxes {
+    width:500px;
+    height:150px;
+    background-color:floralwhite;
+}
+    .inputboxes:hover {
+        background-color: whitesmoke;
+        transition: 0.5s;
+    }
+
+.formbox{
+    text-align:start;
+    margin-top:10%;
+    margin-left:15%;
+}
+
+.submitbutton {
+    margin-top: 20px;
+    margin-left: 205px;
+    width: 100px;
+    height: 50px;
+    background: transparent;
+    text-decoration: none;
+}
+.submitbutton:hover{
+    background-color:white;
+    transition:0.5s;
+}
+
+.fa {
+    padding: 30px;
+    text-align: center;
+    margin: 5px 2px;
+    font-size: 30px;
+    width: 90px;
+    margin-top:30%;
+}
+
+.fa-facebook {
+    color: white;
+    background: #3B5998;
+}
+
+.fa-instagram {
+    color: white;
+    background: #125688;
+}
+
+
+.socialmedia{
+    display:inline-flex;
+}
+.fa:hover {
+    opacity: 0.9;
+}
+
+.bottom {
+    min-height: 30vh;
+    width: 100%;
+    background-color: whitesmoke;
+    background-size: cover;
+    position: relative;
+}
+
+.logo {
+    width: 60%;
+}
+
+.fa {
+    padding: 10px;
+    text-align: center;
+    margin: 5px 2px;
+    font-size: 30px;
+    width: 90px;
+    margin-top: 30%;
+}
+
+
+.socialmedia {
+}
+
+.fa:hover {
+    opacity: 0.9;
+}
+
+p00 {
+    color: black;
+    font-family: 'Gloock', serif;
+    font-size: large;
+}

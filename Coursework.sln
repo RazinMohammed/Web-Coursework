@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C44B2ED0-1959-4305-81BA-FD7C0FA11C7D}"
+	ProjectSection(SolutionItems) = preProject
+		index.html = index.html
+		Products.html = Products.html
+		ProductsCss.css = ProductsCss.css
+		Contact.html = Contact.html
+		ContactCSS.css = ContactCSS.css
+		Order.html = Order.html
+		OrderCSS.css = OrderCSS.css
+		OrderNow.js = OrderNow.js
+		..\..\Downloads\StyleSheet1.css = ..\..\Downloads\StyleSheet1.css
+		IndexCSS.css = IndexCSS.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53AF355E-EB13-4522-B1FE-2B8CC5393D1A}
+	EndGlobalSection
+EndGlobal

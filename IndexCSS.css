@@ -1,0 +1,138 @@
+﻿* {
+    margin: 0;
+    padding:0;
+
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(145, 146, 152, 0.52), rgba(30, 19, 93, 0.73)),url(images/fruitsmainn.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+nav {
+    display : flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+}
+
+nav img {
+    width: 300px;
+
+    }
+.nav-links {
+    flex:1;
+    text-align: right;
+
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+
+    }
+
+    .nav-links ul li a {
+        color: antiquewhite;
+        text-decoration: none;
+        font-family: 'Gloock', serif;
+        font-size: 18px;
+    }
+.menu-info {
+    width:90%;
+    color:white;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+
+}
+.menu-info h1 {
+    margin-bottom:10px;
+    font-style:italic;
+    font-size:40px;
+    color:antiquewhite;
+    }
+
+.info-button {
+    display:inline-block;
+    text-decoration:none;
+    color: antiquewhite;
+    border: 1px solid white;
+    background: transparent;
+    position: relative;
+    cursor:pointer;
+    padding:12px 34px;
+    margin-top:20px;
+    border-radius:15%;
+}
+
+    .info-button:hover {
+        border: 1px solid white;
+        background: antiquewhite;
+        transition: 0.5s;
+        color: black;
+    }
+h1 {
+    font-family: 'Gloock', serif;
+}
+p {
+    font-family: 'Gloock', serif;
+    color:antiquewhite;
+}
+
+.bottom{
+    min-height: 30vh;
+    width: 100%;
+    background-color:whitesmoke;
+    background-size: cover;
+    position: relative;
+}
+
+.logo{
+    width:60%;
+    
+
+}
+.fa {
+    padding: 10px;
+    text-align: center;
+    margin: 5px 2px;
+    font-size: 30px;
+    width: 90px;
+    margin-top: 30%;
+}
+
+.fa-facebook {
+    color: white;
+    background: #3B5998;
+}
+
+.fa-instagram {
+    color: white;
+    background: #125688;
+}
+
+
+.socialmedia {
+   
+}
+
+.fa:hover {
+    opacity: 0.9;
+}
+p00 {
+    color: black;
+    font-family: 'Gloock', serif;
+    font-size:large;
+}
